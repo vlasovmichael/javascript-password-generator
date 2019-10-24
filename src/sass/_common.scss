@@ -1,0 +1,43 @@
+.main-form{
+    max-width: 300px;
+    margin: 0 auto;
+    &__btn{
+        width: 100%;
+    }
+}
+.main-form_result{
+    position: relative;
+    margin-bottom: 20px;
+    &__input{
+        font-size: 14px;
+        font-weight: 400;
+        background-color: #fff;
+        border: 1px solid #eee;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 30px 0 15px;
+    }
+    &__copy{
+        position: absolute;
+        top: 6px; 
+        right: 20px;
+    }
+}
+.main-form-options{
+    margin-bottom: 20px;
+}
+.main-form-options-list{
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    &__number{
+        width: 50px;
+        text-align: center;
+    }
+}
